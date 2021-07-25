@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leader Board</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body style="background-color: #F3F1FF;">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #562EFF;">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img src="images/icons/logo.png" alt="" width="41" height="51">
+                    <span class="ms-2">Idea</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="images/icons/profile.png" alt="" width="51px" height="51px">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="container bg-white rounded">
+            <div>
+                <h4 class="text-primary my-4">Top player</h4>
+            </div>
+            <!--  by using row-cols-(ekhane jotogula column hobe tar number dite hobe)  eivabe korte pari 
+            or,
+            every .col- e amra total 12 ta section theke koita section nibe seita diye hisab kore ber kore dite pari jemon-
+            amr jodi column 3 ta hoi tahole amar dite hobe col-(12/3) tahole proti ta column 4 ta section nibe ar 3 ta column make korbe
+            -->
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-3 pb-3">
+                <div class="col d-flex align-items-center">
+                    <img src="images/players/player-1.png" width="56px" alt="">
+                    <h4 class="ms-2">Jhon Smith</h4>
+                </div>
+                <div class="col d-flex align-items-center">
+                    <img src="images/players/player-2.png" width="56px" alt="">
+                    <h4 class="ms-2">Pro Rasel</h4>
+                </div>
+                <div class="col d-flex align-items-center">
+                    <img src="images/players/player-3.png" width="56px" alt="">
+                    <h4 class="ms-2">Abu Sufian</h4>
+                </div>
+                <div class="col d-flex align-items-center">
+                    <img src="images/players/player-3.png" width="56px" alt="">
+                    <h4 class="ms-2">Abu Sufian</h4>
+                </div>
+                <div class="col d-flex align-items-center">
+                    <img src="images/players/player-3.png" width="56px" alt="">
+                    <h4 class="ms-2">Abu Sufian</h4>
+                </div>
+                <div class="col d-flex align-items-center">
+                    <img src="images/players/player-3.png" width="56px" alt="">
+                    <h4 class="ms-2">Abu Sufian</h4>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <h4 class="text-primary my-4">Top Blogs</h4>
+            </div>
+            <div class="row g-3 pb-4 ">
+                <div class="col-md-12 col-lg-6 d-flex">
+                    <img width="177px" src="images/blogs/blog-1.png" alt="">
+                    <div class="ps-2">
+                        <h4>13 of My Favorite
+                            UI/UX Goodies</h4>
+                        <p>By <a href="">Danny Sapio</a></p>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6 d-flex">
+                    <img width="177px" src="images/blogs/blog-2.png" alt="">
+                    <div class="ps-2">
+                        <h4>UI cheat sheet:
+                            list vs grids</h4>
+                        <p>By <a href="">Tes Gadd</a></p>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6 d-flex">
+                    <img width="177px" src="images/blogs/blog-3.png" alt="">
+                    <div class="ps-2">
+                        <h4>7 typography tips
+                            for interface design</h4>
+                        <p>By <a href="">Jerimiah Lam</a></p>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6 d-flex">
+                    <img width="177px" src="images/blogs/blog-4.png" alt="">
+                    <div class="ps-2">
+                        <h4>Your logo is
+                            copied</h4>
+                        <p>By <a href="">Ferdinand Vogler</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container bg-white rounded my-3">
+            <h4 class="pt-3">Latest Courses</h4>
+            <div class="row g-3 mt-2">
+                <div class=" col-12 col-md-6 col-lg-4 shadow-lg rounded p-2">
+                    <img width="224px" class="mt-2" src="images/courses/course-1.png" alt="">
+                    <div>
+                        <h4 class="text-wrap">React - The Complete Guide 2020</h4>
+                        <span>Reed Krakoff.</span>
+                        <p>
+                            <img width="12px" src="images/icons/star.png" alt="">
+                            <img width="12px" src="images/icons/star.png" alt="">
+                            <img width="12px" src="images/icons/star.png" alt="">
+                            <img width="12px" src="images/icons/star.png" alt="">
+                            <img width="12px" src="images/icons/star.png" alt="">
+                            5.0
+                            <span class="rounded ms-5" style="background-color: #ff4a5f56;">
+                                <img width="20px" src="images/icons/clock.png" alt="">
+                                1:30hr
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <div class=" col-12 col-md-6 col-lg-4 shadow-lg rounded p-2">
+                    <img width="224px" src="images/courses/course-2.png" alt="">
+                    <div>
+                        <h4 class="text-wrap">Powerpoint 2020 Master Powerpoint Course</h4>
+                        <span>Walter Scott</span>
+                        <p>
+                            <img width="12px" src="images/icons/star.png" alt="">
+                            <img width="12px" src="images/icons/star.png" alt="">
+                            <img width="12px" src="images/icons/star.png" alt="">
+                            <img width="12px" src="images/icons/star.png" alt="">
+                            <img width="12px" src="images/icons/star.png" alt="">
+                            5.0
+                            <span class="rounded ms-5" style="background-color: #ff4a5f56;">
+                                <img width="20px" src="images/icons/clock.png" alt="">
+                                1:30hr
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 shadow-lg rounded p-2">
+                    <img width="224px" src="images/courses/course-3.png" alt="">
+                    <div>
+                        <h4 class="text-wrap">The Complete JavaScript Course 2020</h4>
+                        <span>Reed Krakoff.</span>
+                        <p>
+                            <img width="12px" src="images/icons/star.png" alt="">
+                            <img width="12px" src="images/icons/star.png" alt="">
+                            <img width="12px" src="images/icons/star.png" alt="">
+                            <img width="12px" src="images/icons/star.png" alt="">
+                            <img width="12px" src="images/icons/star.png" alt="">
+                            5.0
+                            <span class="rounded ms-5" style="background-color: #ff4a5f56;">
+                                <img width="20px" src="images/icons/clock.png" alt="">
+                                1:30hr
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </section>
+    </main>
+    <footer>
+        <p class="text-center m-5">Copyright 2021-2050</p>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
